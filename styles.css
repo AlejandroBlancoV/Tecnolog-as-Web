@@ -3,8 +3,8 @@
 }
 
 .item {
-    list-style: none;
-    border: 1px solid blue;
+    list-style: circle;
+    border: 1px solid red;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -12,11 +12,12 @@
 }
 
 .item a {
-    text-decoration: none;
+    text-decoration: wavy;
     text-transform: uppercase;
+
 }
 
 .item:hover {
-    background-color: lightcyan;
+    background-color: green;
 
 }
